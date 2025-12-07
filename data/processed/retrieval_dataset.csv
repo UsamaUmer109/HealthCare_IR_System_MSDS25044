@@ -1,0 +1,730 @@
+disease,symptoms,symptoms_text,expanded_symptoms,expanded_text,symptoms_count,precautions,precautions_text,precautions_count,search_text,display_text,doc_id
+fungal infection,"['skin rash', 'itching', 'dischromic patches', 'nodal skin eruptions']",skin rash itching dischromic patches nodal skin eruptions,"['skin rash', 'itching', 'dischromic patches', 'nodal skin eruptions']",skin rash itching dischromic patches nodal skin eruptions,4,"['bath twice', 'use detol or neem in bathing water', 'keep infected area dry', 'use clean cloths']",bath twice use detol or neem in bathing water keep infected area dry use clean cloths,4,fungal infection skin rash itching dischromic patches nodal skin eruptions bath twice use detol or neem in bathing water keep infected area dry use clean cloths,"Disease: Fungal Infection
+
+Symptoms:
+  1. skin rash
+  2. itching
+  3. dischromic patches
+  4. nodal skin eruptions
+
+Precautions:
+  1. bath twice
+  2. use detol or neem in bathing water
+  3. keep infected area dry
+  4. use clean cloths
+",0
+allergy,"['watering from eyes', 'chills', 'shivering', 'continuous sneezing']",watering from eyes chills shivering continuous sneezing,"['watering from eyes', 'continuous sneezing', 'shivering', 'chills']",watering from eyes continuous sneezing shivering chills,4,"['apply calamine', 'cover area with bandage', 'use ice to compress itching']",apply calamine cover area with bandage use ice to compress itching,3,allergy watering from eyes continuous sneezing shivering chills apply calamine cover area with bandage use ice to compress itching,"Disease: Allergy
+
+Symptoms:
+  1. watering from eyes
+  2. chills
+  3. shivering
+  4. continuous sneezing
+
+Precautions:
+  1. apply calamine
+  2. cover area with bandage
+  3. use ice to compress itching
+",1
+gerd,"['cough', 'ulcers on tongue', 'stomach pain', 'acidity', 'chest pain', 'vomiting']",cough ulcers on tongue stomach pain acidity chest pain vomiting,"['cough', 'ulcers on tongue', 'acidity', 'stomach pain', 'chest pain', 'vomiting']",cough ulcers on tongue acidity stomach pain chest pain vomiting,6,"['avoid fatty spicy food', 'avoid lying down after eating', 'maintain healthy weight', 'exercise']",avoid fatty spicy food avoid lying down after eating maintain healthy weight exercise,4,gerd cough ulcers on tongue acidity stomach pain chest pain vomiting avoid fatty spicy food avoid lying down after eating maintain healthy weight exercise,"Disease: Gerd
+
+Symptoms:
+  1. cough
+  2. ulcers on tongue
+  3. stomach pain
+  4. acidity
+  5. chest pain
+  6. vomiting
+
+Precautions:
+  1. avoid fatty spicy food
+  2. avoid lying down after eating
+  3. maintain healthy weight
+  4. exercise
+",2
+chronic cholestasis,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'nausea', 'vomiting', 'abdominal pain', 'itching']",yellowing of eyes yellowish skin loss of appetite nausea vomiting abdominal pain itching,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'nausea', 'vomiting', 'abdominal pain', 'itching']",yellowing of eyes yellowish skin loss of appetite nausea vomiting abdominal pain itching,7,"['cold baths', 'anti itch medicine', 'consult doctor', 'eat healthy']",cold baths anti itch medicine consult doctor eat healthy,4,chronic cholestasis yellowing of eyes yellowish skin loss of appetite nausea vomiting abdominal pain itching cold baths anti itch medicine consult doctor eat healthy,"Disease: Chronic Cholestasis
+
+Symptoms:
+  1. yellowing of eyes
+  2. yellowish skin
+  3. loss of appetite
+  4. nausea
+  5. vomiting
+  6. abdominal pain
+  7. itching
+
+Precautions:
+  1. cold baths
+  2. anti itch medicine
+  3. consult doctor
+  4. eat healthy
+",3
+drug reaction,"['skin rash', 'spotting urination', 'burning micturition', 'stomach pain', 'itching']",skin rash spotting urination burning micturition stomach pain itching,"['skin rash', 'spotting urination', 'burning micturition', 'stomach pain', 'itching']",skin rash spotting urination burning micturition stomach pain itching,5,"['stop irritation', 'consult nearest hospital', 'stop taking drug', 'follow up']",stop irritation consult nearest hospital stop taking drug follow up,4,drug reaction skin rash spotting urination burning micturition stomach pain itching stop irritation consult nearest hospital stop taking drug follow up,"Disease: Drug Reaction
+
+Symptoms:
+  1. skin rash
+  2. spotting urination
+  3. burning micturition
+  4. stomach pain
+  5. itching
+
+Precautions:
+  1. stop irritation
+  2. consult nearest hospital
+  3. stop taking drug
+  4. follow up
+",4
+peptic ulcer diseae,"['loss of appetite', 'internal itching', 'indigestion', 'vomiting', 'passage of gases', 'abdominal pain']",loss of appetite internal itching indigestion vomiting passage of gases abdominal pain,"['loss of appetite', 'internal itching', 'indigestion', 'vomiting', 'passage of gases', 'abdominal pain']",loss of appetite internal itching indigestion vomiting passage of gases abdominal pain,6,"['avoid fatty spicy food', 'consume probiotic food', 'eliminate milk', 'limit alcohol']",avoid fatty spicy food consume probiotic food eliminate milk limit alcohol,4,peptic ulcer diseae loss of appetite internal itching indigestion vomiting passage of gases abdominal pain avoid fatty spicy food consume probiotic food eliminate milk limit alcohol,"Disease: Peptic Ulcer Diseae
+
+Symptoms:
+  1. loss of appetite
+  2. internal itching
+  3. indigestion
+  4. vomiting
+  5. passage of gases
+  6. abdominal pain
+
+Precautions:
+  1. avoid fatty spicy food
+  2. consume probiotic food
+  3. eliminate milk
+  4. limit alcohol
+",5
+aids,"['muscle wasting', 'extra marital contacts', 'high fever', 'patches in throat']",muscle wasting extra marital contacts high fever patches in throat,"['muscle wasting', 'high fever', 'patches in throat', 'extra marital contacts']",muscle wasting high fever patches in throat extra marital contacts,4,"['avoid open cuts', 'wear ppe if possible', 'consult doctor', 'follow up']",avoid open cuts wear ppe if possible consult doctor follow up,4,aids muscle wasting high fever patches in throat extra marital contacts avoid open cuts wear ppe if possible consult doctor follow up,"Disease: Aids
+
+Symptoms:
+  1. muscle wasting
+  2. extra marital contacts
+  3. high fever
+  4. patches in throat
+
+Precautions:
+  1. avoid open cuts
+  2. wear ppe if possible
+  3. consult doctor
+  4. follow up
+",6
+diabetes,"['irregular sugar level', 'polyuria', 'fatigue', 'restlessness', 'lethargy', 'blurred and distorted vision', 'weight loss', 'obesity', 'excessive hunger', 'increased appetite']",irregular sugar level polyuria fatigue restlessness lethargy blurred and distorted vision weight loss obesity excessive hunger increased appetite,"['irregular sugar level', 'polyuria', 'fatigue', 'restlessness', 'lethargy', 'blurred and distorted vision', 'weight loss', 'obesity', 'excessive hunger', 'increased appetite']",irregular sugar level polyuria fatigue restlessness lethargy blurred and distorted vision weight loss obesity excessive hunger increased appetite,10,"['have balanced diet', 'exercise', 'consult doctor', 'follow up']",have balanced diet exercise consult doctor follow up,4,diabetes irregular sugar level polyuria fatigue restlessness lethargy blurred and distorted vision weight loss obesity excessive hunger increased appetite have balanced diet exercise consult doctor follow up,"Disease: Diabetes
+
+Symptoms:
+  1. irregular sugar level
+  2. polyuria
+  3. fatigue
+  4. restlessness
+  5. lethargy
+  6. blurred and distorted vision
+  7. weight loss
+  8. obesity
+  9. excessive hunger
+  10. increased appetite
+
+Precautions:
+  1. have balanced diet
+  2. exercise
+  3. consult doctor
+  4. follow up
+",7
+gastroenteritis,"['sunken eyes', 'dehydration', 'diarrhoea', 'vomiting']",sunken eyes dehydration diarrhoea vomiting,"['sunken eyes', 'dehydration', 'diarrhoea', 'vomiting']",sunken eyes dehydration diarrhoea vomiting,4,"['stop eating solid food for while', 'try taking small sips of water', 'rest', 'ease back into eating']",stop eating solid food for while try taking small sips of water rest ease back into eating,4,gastroenteritis sunken eyes dehydration diarrhoea vomiting stop eating solid food for while try taking small sips of water rest ease back into eating,"Disease: Gastroenteritis
+
+Symptoms:
+  1. sunken eyes
+  2. dehydration
+  3. diarrhoea
+  4. vomiting
+
+Precautions:
+  1. stop eating solid food for while
+  2. try taking small sips of water
+  3. rest
+  4. ease back into eating
+",8
+bronchial asthma,"['cough', 'fatigue', 'family history', 'breathlessness', 'high fever', 'mucoid sputum']",cough fatigue family history breathlessness high fever mucoid sputum,"['cough', 'fatigue', 'family history', 'breathlessness', 'high fever', 'mucoid sputum']",cough fatigue family history breathlessness high fever mucoid sputum,6,"['switch to loose cloothing', 'take deep breaths', 'get away from trigger', 'seek help']",switch to loose cloothing take deep breaths get away from trigger seek help,4,bronchial asthma cough fatigue family history breathlessness high fever mucoid sputum switch to loose cloothing take deep breaths get away from trigger seek help,"Disease: Bronchial Asthma
+
+Symptoms:
+  1. cough
+  2. fatigue
+  3. family history
+  4. breathlessness
+  5. high fever
+  6. mucoid sputum
+
+Precautions:
+  1. switch to loose cloothing
+  2. take deep breaths
+  3. get away from trigger
+  4. seek help
+",9
+hypertension,"['headache', 'dizziness', 'chest pain', 'loss of balance', 'lack of concentration']",headache dizziness chest pain loss of balance lack of concentration,"['headache', 'chest pain', 'dizziness', 'loss of balance', 'lack of concentration']",headache chest pain dizziness loss of balance lack of concentration,5,"['meditation', 'salt baths', 'reduce stress', 'get proper sleep']",meditation salt baths reduce stress get proper sleep,4,hypertension headache chest pain dizziness loss of balance lack of concentration meditation salt baths reduce stress get proper sleep,"Disease: Hypertension
+
+Symptoms:
+  1. headache
+  2. dizziness
+  3. chest pain
+  4. loss of balance
+  5. lack of concentration
+
+Precautions:
+  1. meditation
+  2. salt baths
+  3. reduce stress
+  4. get proper sleep
+",10
+migraine,"['headache', 'visual disturbances', 'stiff neck', 'acidity', 'indigestion', 'blurred and distorted vision', 'depression', 'excessive hunger', 'irritability']",headache visual disturbances stiff neck acidity indigestion blurred and distorted vision depression excessive hunger irritability,"['headache', 'visual disturbances', 'stiff neck', 'acidity', 'indigestion', 'blurred and distorted vision', 'depression', 'excessive hunger', 'irritability']",headache visual disturbances stiff neck acidity indigestion blurred and distorted vision depression excessive hunger irritability,9,"['meditation', 'reduce stress', 'use poloroid glasses in sun', 'consult doctor']",meditation reduce stress use poloroid glasses in sun consult doctor,4,migraine headache visual disturbances stiff neck acidity indigestion blurred and distorted vision depression excessive hunger irritability meditation reduce stress use poloroid glasses in sun consult doctor,"Disease: Migraine
+
+Symptoms:
+  1. headache
+  2. visual disturbances
+  3. stiff neck
+  4. acidity
+  5. indigestion
+  6. blurred and distorted vision
+  7. depression
+  8. excessive hunger
+  9. irritability
+
+Precautions:
+  1. meditation
+  2. reduce stress
+  3. use poloroid glasses in sun
+  4. consult doctor
+",11
+cervical spondylosis,"['neck pain', 'dizziness', 'loss of balance', 'weakness in limbs', 'back pain']",neck pain dizziness loss of balance weakness in limbs back pain,"['neck pain', 'dizziness', 'loss of balance', 'weakness in limbs', 'back pain']",neck pain dizziness loss of balance weakness in limbs back pain,5,"['use heating pad or cold pack', 'exercise', 'take otc pain reliver', 'consult doctor']",use heating pad or cold pack exercise take otc pain reliver consult doctor,4,cervical spondylosis neck pain dizziness loss of balance weakness in limbs back pain use heating pad or cold pack exercise take otc pain reliver consult doctor,"Disease: Cervical Spondylosis
+
+Symptoms:
+  1. neck pain
+  2. dizziness
+  3. loss of balance
+  4. weakness in limbs
+  5. back pain
+
+Precautions:
+  1. use heating pad or cold pack
+  2. exercise
+  3. take otc pain reliver
+  4. consult doctor
+",12
+paralysis brain hemorrhage,"['headache', 'weakness of one body side', 'altered sensorium', 'vomiting']",headache weakness of one body side altered sensorium vomiting,"['headache', 'weakness of one body side', 'altered sensorium', 'vomiting']",headache weakness of one body side altered sensorium vomiting,4,"['massage', 'eat healthy', 'exercise', 'consult doctor']",massage eat healthy exercise consult doctor,4,paralysis brain hemorrhage headache weakness of one body side altered sensorium vomiting massage eat healthy exercise consult doctor,"Disease: Paralysis Brain Hemorrhage
+
+Symptoms:
+  1. headache
+  2. weakness of one body side
+  3. altered sensorium
+  4. vomiting
+
+Precautions:
+  1. massage
+  2. eat healthy
+  3. exercise
+  4. consult doctor
+",13
+jaundice,"['yellowish skin', 'fatigue', 'weight loss', 'vomiting', 'abdominal pain', 'high fever', 'itching', 'dark urine']",yellowish skin fatigue weight loss vomiting abdominal pain high fever itching dark urine,"['yellowish skin', 'fatigue', 'weight loss', 'vomiting', 'abdominal pain', 'high fever', 'itching', 'dark urine']",yellowish skin fatigue weight loss vomiting abdominal pain high fever itching dark urine,8,"['drink plenty of water', 'consume milk thistle', 'eat fruits and high fiberous food', 'medication']",drink plenty of water consume milk thistle eat fruits and high fiberous food medication,4,jaundice yellowish skin fatigue weight loss vomiting abdominal pain high fever itching dark urine drink plenty of water consume milk thistle eat fruits and high fiberous food medication,"Disease: Jaundice
+
+Symptoms:
+  1. yellowish skin
+  2. fatigue
+  3. weight loss
+  4. vomiting
+  5. abdominal pain
+  6. high fever
+  7. itching
+  8. dark urine
+
+Precautions:
+  1. drink plenty of water
+  2. consume milk thistle
+  3. eat fruits and high fiberous food
+  4. medication
+",14
+malaria,"['headache', 'diarrhoea', 'nausea', 'sweating', 'vomiting', 'chills', 'high fever', 'muscle pain']",headache diarrhoea nausea sweating vomiting chills high fever muscle pain,"['headache', 'diarrhoea', 'nausea', 'sweating', 'vomiting', 'chills', 'high fever', 'muscle pain']",headache diarrhoea nausea sweating vomiting chills high fever muscle pain,8,"['consult nearest hospital', 'avoid oily food', 'avoid non veg food', 'keep mosquitos out']",consult nearest hospital avoid oily food avoid non veg food keep mosquitos out,4,malaria headache diarrhoea nausea sweating vomiting chills high fever muscle pain consult nearest hospital avoid oily food avoid non veg food keep mosquitos out,"Disease: Malaria
+
+Symptoms:
+  1. headache
+  2. diarrhoea
+  3. nausea
+  4. sweating
+  5. vomiting
+  6. chills
+  7. high fever
+  8. muscle pain
+
+Precautions:
+  1. consult nearest hospital
+  2. avoid oily food
+  3. avoid non veg food
+  4. keep mosquitos out
+",15
+chicken pox,"['skin rash', 'headache', 'loss of appetite', 'mild fever', 'fatigue', 'red spots over body', 'malaise', 'lethargy', 'swelled lymph nodes', 'high fever', 'itching']",skin rash headache loss of appetite mild fever fatigue red spots over body malaise lethargy swelled lymph nodes high fever itching,"['skin rash', 'headache', 'loss of appetite', 'mild fever', 'fatigue', 'red spots over body', 'malaise', 'lethargy', 'swelled lymph nodes', 'high fever', 'itching']",skin rash headache loss of appetite mild fever fatigue red spots over body malaise lethargy swelled lymph nodes high fever itching,11,"['use neem in bathing', 'consume neem leaves', 'take vaccine', 'avoid public places']",use neem in bathing consume neem leaves take vaccine avoid public places,4,chicken pox skin rash headache loss of appetite mild fever fatigue red spots over body malaise lethargy swelled lymph nodes high fever itching use neem in bathing consume neem leaves take vaccine avoid public places,"Disease: Chicken Pox
+
+Symptoms:
+  1. skin rash
+  2. headache
+  3. loss of appetite
+  4. mild fever
+  5. fatigue
+  6. red spots over body
+  7. malaise
+  8. lethargy
+  9. swelled lymph nodes
+  10. high fever
+  11. itching
+
+Precautions:
+  1. use neem in bathing
+  2. consume neem leaves
+  3. take vaccine
+  4. avoid public places
+",16
+dengue,"['skin rash', 'headache', 'loss of appetite', 'red spots over body', 'fatigue', 'nausea', 'muscle pain', 'malaise', 'vomiting', 'joint pain', 'chills', 'high fever', 'pain behind the eyes', 'back pain']",skin rash headache loss of appetite red spots over body fatigue nausea muscle pain malaise vomiting joint pain chills high fever pain behind the eyes back pain,"['skin rash', 'headache', 'loss of appetite', 'red spots over body', 'fatigue', 'nausea', 'back pain', 'malaise', 'vomiting', 'joint pain', 'chills', 'high fever', 'pain behind the eyes', 'muscle pain']",skin rash headache loss of appetite red spots over body fatigue nausea back pain malaise vomiting joint pain chills high fever pain behind the eyes muscle pain,14,"['drink papaya leaf juice', 'avoid fatty spicy food', 'keep mosquitos away', 'keep hydrated']",drink papaya leaf juice avoid fatty spicy food keep mosquitos away keep hydrated,4,dengue skin rash headache loss of appetite red spots over body fatigue nausea back pain malaise vomiting joint pain chills high fever pain behind the eyes muscle pain drink papaya leaf juice avoid fatty spicy food keep mosquitos away keep hydrated,"Disease: Dengue
+
+Symptoms:
+  1. skin rash
+  2. headache
+  3. loss of appetite
+  4. red spots over body
+  5. fatigue
+  6. nausea
+  7. muscle pain
+  8. malaise
+  9. vomiting
+  10. joint pain
+  11. chills
+  12. high fever
+  13. pain behind the eyes
+  14. back pain
+
+Precautions:
+  1. drink papaya leaf juice
+  2. avoid fatty spicy food
+  3. keep mosquitos away
+  4. keep hydrated
+",17
+typhoid,"['headache', 'diarrhoea', 'fatigue', 'nausea', 'toxic look (typhos)', 'vomiting', 'abdominal pain', 'constipation', 'chills', 'belly pain', 'high fever']",headache diarrhoea fatigue nausea toxic look (typhos) vomiting abdominal pain constipation chills belly pain high fever,"['headache', 'diarrhoea', 'fatigue', 'nausea', 'toxic look (typhos)', 'vomiting', 'abdominal pain', 'constipation', 'chills', 'belly pain', 'high fever']",headache diarrhoea fatigue nausea toxic look (typhos) vomiting abdominal pain constipation chills belly pain high fever,11,"['eat high calorie vegitables', 'antiboitic therapy', 'consult doctor', 'medication']",eat high calorie vegitables antiboitic therapy consult doctor medication,4,typhoid headache diarrhoea fatigue nausea toxic look (typhos) vomiting abdominal pain constipation chills belly pain high fever eat high calorie vegitables antiboitic therapy consult doctor medication,"Disease: Typhoid
+
+Symptoms:
+  1. headache
+  2. diarrhoea
+  3. fatigue
+  4. nausea
+  5. toxic look (typhos)
+  6. vomiting
+  7. abdominal pain
+  8. constipation
+  9. chills
+  10. belly pain
+  11. high fever
+
+Precautions:
+  1. eat high calorie vegitables
+  2. antiboitic therapy
+  3. consult doctor
+  4. medication
+",18
+hepatitis a,"['yellowing of eyes', 'yellowish skin', 'diarrhoea', 'loss of appetite', 'mild fever', 'nausea', 'vomiting', 'abdominal pain', 'joint pain', 'dark urine', 'muscle pain']",yellowing of eyes yellowish skin diarrhoea loss of appetite mild fever nausea vomiting abdominal pain joint pain dark urine muscle pain,"['yellowing of eyes', 'yellowish skin', 'diarrhoea', 'loss of appetite', 'mild fever', 'nausea', 'vomiting', 'abdominal pain', 'joint pain', 'dark urine', 'muscle pain']",yellowing of eyes yellowish skin diarrhoea loss of appetite mild fever nausea vomiting abdominal pain joint pain dark urine muscle pain,11,"['consult nearest hospital', 'wash hands through', 'avoid fatty spicy food', 'medication']",consult nearest hospital wash hands through avoid fatty spicy food medication,4,hepatitis a yellowing of eyes yellowish skin diarrhoea loss of appetite mild fever nausea vomiting abdominal pain joint pain dark urine muscle pain consult nearest hospital wash hands through avoid fatty spicy food medication,"Disease: Hepatitis A
+
+Symptoms:
+  1. yellowing of eyes
+  2. yellowish skin
+  3. diarrhoea
+  4. loss of appetite
+  5. mild fever
+  6. nausea
+  7. vomiting
+  8. abdominal pain
+  9. joint pain
+  10. dark urine
+  11. muscle pain
+
+Precautions:
+  1. consult nearest hospital
+  2. wash hands through
+  3. avoid fatty spicy food
+  4. medication
+",19
+hepatitis b,"['yellowing of eyes', 'yellowish skin', 'receiving blood transfusion', 'receiving unsterile injections', 'loss of appetite', 'fatigue', 'malaise', 'lethargy', 'abdominal pain', 'yellow urine', 'itching', 'dark urine']",yellowing of eyes yellowish skin receiving blood transfusion receiving unsterile injections loss of appetite fatigue malaise lethargy abdominal pain yellow urine itching dark urine,"['yellowing of eyes', 'receiving blood transfusion', 'yellowish skin', 'receiving unsterile injections', 'loss of appetite', 'fatigue', 'malaise', 'lethargy', 'abdominal pain', 'yellow urine', 'itching', 'dark urine']",yellowing of eyes receiving blood transfusion yellowish skin receiving unsterile injections loss of appetite fatigue malaise lethargy abdominal pain yellow urine itching dark urine,12,"['consult nearest hospital', 'vaccination', 'eat healthy', 'medication']",consult nearest hospital vaccination eat healthy medication,4,hepatitis b yellowing of eyes receiving blood transfusion yellowish skin receiving unsterile injections loss of appetite fatigue malaise lethargy abdominal pain yellow urine itching dark urine consult nearest hospital vaccination eat healthy medication,"Disease: Hepatitis B
+
+Symptoms:
+  1. yellowing of eyes
+  2. yellowish skin
+  3. receiving blood transfusion
+  4. receiving unsterile injections
+  5. loss of appetite
+  6. fatigue
+  7. malaise
+  8. lethargy
+  9. abdominal pain
+  10. yellow urine
+  11. itching
+  12. dark urine
+
+Precautions:
+  1. consult nearest hospital
+  2. vaccination
+  3. eat healthy
+  4. medication
+",20
+hepatitis c,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'family history']",yellowing of eyes yellowish skin loss of appetite fatigue nausea family history,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'family history']",yellowing of eyes yellowish skin loss of appetite fatigue nausea family history,6,"['consult nearest hospital', 'vaccination', 'eat healthy', 'medication']",consult nearest hospital vaccination eat healthy medication,4,hepatitis c yellowing of eyes yellowish skin loss of appetite fatigue nausea family history consult nearest hospital vaccination eat healthy medication,"Disease: Hepatitis C
+
+Symptoms:
+  1. yellowing of eyes
+  2. yellowish skin
+  3. loss of appetite
+  4. fatigue
+  5. nausea
+  6. family history
+
+Precautions:
+  1. consult nearest hospital
+  2. vaccination
+  3. eat healthy
+  4. medication
+",21
+hepatitis d,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'vomiting', 'abdominal pain', 'joint pain', 'dark urine']",yellowing of eyes yellowish skin loss of appetite fatigue nausea vomiting abdominal pain joint pain dark urine,"['yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'vomiting', 'abdominal pain', 'joint pain', 'dark urine']",yellowing of eyes yellowish skin loss of appetite fatigue nausea vomiting abdominal pain joint pain dark urine,9,"['consult doctor', 'medication', 'eat healthy', 'follow up']",consult doctor medication eat healthy follow up,4,hepatitis d yellowing of eyes yellowish skin loss of appetite fatigue nausea vomiting abdominal pain joint pain dark urine consult doctor medication eat healthy follow up,"Disease: Hepatitis D
+
+Symptoms:
+  1. yellowing of eyes
+  2. yellowish skin
+  3. loss of appetite
+  4. fatigue
+  5. nausea
+  6. vomiting
+  7. abdominal pain
+  8. joint pain
+  9. dark urine
+
+Precautions:
+  1. consult doctor
+  2. medication
+  3. eat healthy
+  4. follow up
+",22
+hepatitis e,"['acute liver failure', 'yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'coma', 'vomiting', 'abdominal pain', 'joint pain', 'stomach bleeding', 'high fever', 'dark urine']",acute liver failure yellowing of eyes yellowish skin loss of appetite fatigue nausea coma vomiting abdominal pain joint pain stomach bleeding high fever dark urine,"['acute liver failure', 'yellowing of eyes', 'yellowish skin', 'loss of appetite', 'fatigue', 'nausea', 'coma', 'vomiting', 'abdominal pain', 'joint pain', 'stomach bleeding', 'high fever', 'dark urine']",acute liver failure yellowing of eyes yellowish skin loss of appetite fatigue nausea coma vomiting abdominal pain joint pain stomach bleeding high fever dark urine,13,"['stop alcohol consumption', 'rest', 'consult doctor', 'medication']",stop alcohol consumption rest consult doctor medication,4,hepatitis e acute liver failure yellowing of eyes yellowish skin loss of appetite fatigue nausea coma vomiting abdominal pain joint pain stomach bleeding high fever dark urine stop alcohol consumption rest consult doctor medication,"Disease: Hepatitis E
+
+Symptoms:
+  1. acute liver failure
+  2. yellowing of eyes
+  3. yellowish skin
+  4. loss of appetite
+  5. fatigue
+  6. nausea
+  7. coma
+  8. vomiting
+  9. abdominal pain
+  10. joint pain
+  11. stomach bleeding
+  12. high fever
+  13. dark urine
+
+Precautions:
+  1. stop alcohol consumption
+  2. rest
+  3. consult doctor
+  4. medication
+",23
+alcoholic hepatitis,"['history of alcohol consumption', 'swelling of stomach', 'distention of abdomen', 'yellowish skin', 'vomiting', 'abdominal pain', 'fluid overload']",history of alcohol consumption swelling of stomach distention of abdomen yellowish skin vomiting abdominal pain fluid overload,"['history of alcohol consumption', 'swelling of stomach', 'distention of abdomen', 'yellowish skin', 'vomiting', 'abdominal pain', 'fluid overload']",history of alcohol consumption swelling of stomach distention of abdomen yellowish skin vomiting abdominal pain fluid overload,7,"['stop alcohol consumption', 'consult doctor', 'medication', 'follow up']",stop alcohol consumption consult doctor medication follow up,4,alcoholic hepatitis history of alcohol consumption swelling of stomach distention of abdomen yellowish skin vomiting abdominal pain fluid overload stop alcohol consumption consult doctor medication follow up,"Disease: Alcoholic Hepatitis
+
+Symptoms:
+  1. history of alcohol consumption
+  2. swelling of stomach
+  3. distention of abdomen
+  4. yellowish skin
+  5. vomiting
+  6. abdominal pain
+  7. fluid overload
+
+Precautions:
+  1. stop alcohol consumption
+  2. consult doctor
+  3. medication
+  4. follow up
+",24
+tuberculosis,"['yellowing of eyes', 'cough', 'loss of appetite', 'mild fever', 'fatigue', 'malaise', 'sweating', 'weight loss', 'vomiting', 'breathlessness', 'chest pain', 'phlegm', 'chills', 'blood in sputum', 'swelled lymph nodes', 'high fever']",yellowing of eyes cough loss of appetite mild fever fatigue malaise sweating weight loss vomiting breathlessness chest pain phlegm chills blood in sputum swelled lymph nodes high fever,"['yellowing of eyes', 'cough', 'loss of appetite', 'mild fever', 'fatigue', 'malaise', 'sweating', 'weight loss', 'vomiting', 'breathlessness', 'chest pain', 'phlegm', 'chills', 'blood in sputum', 'swelled lymph nodes', 'high fever']",yellowing of eyes cough loss of appetite mild fever fatigue malaise sweating weight loss vomiting breathlessness chest pain phlegm chills blood in sputum swelled lymph nodes high fever,16,"['cover mouth', 'consult doctor', 'medication', 'rest']",cover mouth consult doctor medication rest,4,tuberculosis yellowing of eyes cough loss of appetite mild fever fatigue malaise sweating weight loss vomiting breathlessness chest pain phlegm chills blood in sputum swelled lymph nodes high fever cover mouth consult doctor medication rest,"Disease: Tuberculosis
+
+Symptoms:
+  1. yellowing of eyes
+  2. cough
+  3. loss of appetite
+  4. mild fever
+  5. fatigue
+  6. malaise
+  7. sweating
+  8. weight loss
+  9. vomiting
+  10. breathlessness
+  11. chest pain
+  12. phlegm
+  13. chills
+  14. blood in sputum
+  15. swelled lymph nodes
+  16. high fever
+
+Precautions:
+  1. cover mouth
+  2. consult doctor
+  3. medication
+  4. rest
+",25
+common cold,"['headache', 'cough', 'loss of smell', 'sinus pressure', 'fatigue', 'redness of eyes', 'malaise', 'throat irritation', 'chest pain', 'congestion', 'runny nose', 'phlegm', 'chills', 'swelled lymph nodes', 'high fever', 'continuous sneezing', 'muscle pain']",headache cough loss of smell sinus pressure fatigue redness of eyes malaise throat irritation chest pain congestion runny nose phlegm chills swelled lymph nodes high fever continuous sneezing muscle pain,"['headache', 'cough', 'loss of smell', 'continuous sneezing', 'sinus pressure', 'fatigue', 'redness of eyes', 'malaise', 'chest pain', 'congestion', 'runny nose', 'phlegm', 'chills', 'swelled lymph nodes', 'high fever', 'throat irritation', 'muscle pain']",headache cough loss of smell continuous sneezing sinus pressure fatigue redness of eyes malaise chest pain congestion runny nose phlegm chills swelled lymph nodes high fever throat irritation muscle pain,17,"['drink vitamin c rich drinks', 'take vapour', 'avoid cold food', 'keep fever in check']",drink vitamin c rich drinks take vapour avoid cold food keep fever in check,4,common cold headache cough loss of smell continuous sneezing sinus pressure fatigue redness of eyes malaise chest pain congestion runny nose phlegm chills swelled lymph nodes high fever throat irritation muscle pain drink vitamin c rich drinks take vapour avoid cold food keep fever in check,"Disease: Common Cold
+
+Symptoms:
+  1. headache
+  2. cough
+  3. loss of smell
+  4. sinus pressure
+  5. fatigue
+  6. redness of eyes
+  7. malaise
+  8. throat irritation
+  9. chest pain
+  10. congestion
+  11. runny nose
+  12. phlegm
+  13. chills
+  14. swelled lymph nodes
+  15. high fever
+  16. continuous sneezing
+  17. muscle pain
+
+Precautions:
+  1. drink vitamin c rich drinks
+  2. take vapour
+  3. avoid cold food
+  4. keep fever in check
+",26
+pneumonia,"['cough', 'fatigue', 'malaise', 'sweating', 'chest pain', 'breathlessness', 'fast heart rate', 'rusty sputum', 'phlegm', 'chills', 'high fever']",cough fatigue malaise sweating chest pain breathlessness fast heart rate rusty sputum phlegm chills high fever,"['cough', 'fatigue', 'malaise', 'sweating', 'chest pain', 'breathlessness', 'fast heart rate', 'rusty sputum', 'phlegm', 'chills', 'high fever']",cough fatigue malaise sweating chest pain breathlessness fast heart rate rusty sputum phlegm chills high fever,11,"['consult doctor', 'medication', 'rest', 'follow up']",consult doctor medication rest follow up,4,pneumonia cough fatigue malaise sweating chest pain breathlessness fast heart rate rusty sputum phlegm chills high fever consult doctor medication rest follow up,"Disease: Pneumonia
+
+Symptoms:
+  1. cough
+  2. fatigue
+  3. malaise
+  4. sweating
+  5. chest pain
+  6. breathlessness
+  7. fast heart rate
+  8. rusty sputum
+  9. phlegm
+  10. chills
+  11. high fever
+
+Precautions:
+  1. consult doctor
+  2. medication
+  3. rest
+  4. follow up
+",27
+dimorphic hemmorhoidspiles,"['irritation in anus', 'pain during bowel movements', 'constipation', 'pain in anal region', 'bloody stool']",irritation in anus pain during bowel movements constipation pain in anal region bloody stool,"['irritation in anus', 'pain during bowel movements', 'constipation', 'pain in anal region', 'bloody stool']",irritation in anus pain during bowel movements constipation pain in anal region bloody stool,5,"['avoid fatty spicy food', 'consume witch hazel', 'warm bath with epsom salt', 'consume alovera juice']",avoid fatty spicy food consume witch hazel warm bath with epsom salt consume alovera juice,4,dimorphic hemmorhoidspiles irritation in anus pain during bowel movements constipation pain in anal region bloody stool avoid fatty spicy food consume witch hazel warm bath with epsom salt consume alovera juice,"Disease: Dimorphic Hemmorhoidspiles
+
+Symptoms:
+  1. irritation in anus
+  2. pain during bowel movements
+  3. constipation
+  4. pain in anal region
+  5. bloody stool
+
+Precautions:
+  1. avoid fatty spicy food
+  2. consume witch hazel
+  3. warm bath with epsom salt
+  4. consume alovera juice
+",28
+heart attack,"['chest pain', 'sweating', 'breathlessness', 'vomiting']",chest pain sweating breathlessness vomiting,"['vomiting', 'sweating', 'chest pain', 'breathlessness']",vomiting sweating chest pain breathlessness,4,"['call ambulance', 'chew or swallow asprin', 'keep calm']",call ambulance chew or swallow asprin keep calm,3,heart attack vomiting sweating chest pain breathlessness call ambulance chew or swallow asprin keep calm,"Disease: Heart Attack
+
+Symptoms:
+  1. chest pain
+  2. sweating
+  3. breathlessness
+  4. vomiting
+
+Precautions:
+  1. call ambulance
+  2. chew or swallow asprin
+  3. keep calm
+",29
+varicose veins,"['prominent veins on calf', 'fatigue', 'bruising', 'obesity', 'swollen blood vessels', 'swollen legs', 'cramps']",prominent veins on calf fatigue bruising obesity swollen blood vessels swollen legs cramps,"['prominent veins on calf', 'fatigue', 'bruising', 'obesity', 'swollen blood vessels', 'swollen legs', 'cramps']",prominent veins on calf fatigue bruising obesity swollen blood vessels swollen legs cramps,7,"['lie down flat and raise the leg high', 'use oinments', 'use vein compression', 'dont stand still for long']",lie down flat and raise the leg high use oinments use vein compression dont stand still for long,4,varicose veins prominent veins on calf fatigue bruising obesity swollen blood vessels swollen legs cramps lie down flat and raise the leg high use oinments use vein compression dont stand still for long,"Disease: Varicose Veins
+
+Symptoms:
+  1. prominent veins on calf
+  2. fatigue
+  3. bruising
+  4. obesity
+  5. swollen blood vessels
+  6. swollen legs
+  7. cramps
+
+Precautions:
+  1. lie down flat and raise the leg high
+  2. use oinments
+  3. use vein compression
+  4. dont stand still for long
+",30
+hypothyroidism,"['abnormal menstruation', 'weight gain', 'swollen extremeties', 'fatigue', 'puffy face and eyes', 'mood swings', 'lethargy', 'cold hands and feets', 'dizziness', 'enlarged thyroid', 'depression', 'irritability', 'brittle nails']",abnormal menstruation weight gain swollen extremeties fatigue puffy face and eyes mood swings lethargy cold hands and feets dizziness enlarged thyroid depression irritability brittle nails,"['abnormal menstruation', 'swollen extremeties', 'weight gain', 'fatigue', 'puffy face and eyes', 'mood swings', 'lethargy', 'cold hands and feets', 'dizziness', 'enlarged thyroid', 'depression', 'irritability', 'brittle nails']",abnormal menstruation swollen extremeties weight gain fatigue puffy face and eyes mood swings lethargy cold hands and feets dizziness enlarged thyroid depression irritability brittle nails,13,"['reduce stress', 'exercise', 'eat healthy', 'get proper sleep']",reduce stress exercise eat healthy get proper sleep,4,hypothyroidism abnormal menstruation swollen extremeties weight gain fatigue puffy face and eyes mood swings lethargy cold hands and feets dizziness enlarged thyroid depression irritability brittle nails reduce stress exercise eat healthy get proper sleep,"Disease: Hypothyroidism
+
+Symptoms:
+  1. abnormal menstruation
+  2. weight gain
+  3. swollen extremeties
+  4. fatigue
+  5. puffy face and eyes
+  6. mood swings
+  7. lethargy
+  8. cold hands and feets
+  9. dizziness
+  10. enlarged thyroid
+  11. depression
+  12. irritability
+  13. brittle nails
+
+Precautions:
+  1. reduce stress
+  2. exercise
+  3. eat healthy
+  4. get proper sleep
+",31
+hyperthyroidism,"['diarrhoea', 'abnormal menstruation', 'fatigue', 'restlessness', 'mood swings', 'sweating', 'weight loss', 'fast heart rate', 'excessive hunger', 'muscle weakness', 'irritability']",diarrhoea abnormal menstruation fatigue restlessness mood swings sweating weight loss fast heart rate excessive hunger muscle weakness irritability,"['diarrhoea', 'abnormal menstruation', 'fatigue', 'restlessness', 'mood swings', 'sweating', 'weight loss', 'fast heart rate', 'excessive hunger', 'muscle weakness', 'irritability']",diarrhoea abnormal menstruation fatigue restlessness mood swings sweating weight loss fast heart rate excessive hunger muscle weakness irritability,11,"['eat healthy', 'massage', 'use lemon balm', 'take radioactive iodine treatment']",eat healthy massage use lemon balm take radioactive iodine treatment,4,hyperthyroidism diarrhoea abnormal menstruation fatigue restlessness mood swings sweating weight loss fast heart rate excessive hunger muscle weakness irritability eat healthy massage use lemon balm take radioactive iodine treatment,"Disease: Hyperthyroidism
+
+Symptoms:
+  1. diarrhoea
+  2. abnormal menstruation
+  3. fatigue
+  4. restlessness
+  5. mood swings
+  6. sweating
+  7. weight loss
+  8. fast heart rate
+  9. excessive hunger
+  10. muscle weakness
+  11. irritability
+
+Precautions:
+  1. eat healthy
+  2. massage
+  3. use lemon balm
+  4. take radioactive iodine treatment
+",32
+hypoglycemia,"['headache', 'fatigue', 'nausea', 'slurred speech', 'sweating', 'blurred and distorted vision', 'vomiting', 'excessive hunger', 'irritability', 'drying and tingling lips', 'palpitations', 'anxiety']",headache fatigue nausea slurred speech sweating blurred and distorted vision vomiting excessive hunger irritability drying and tingling lips palpitations anxiety,"['headache', 'fatigue', 'nausea', 'sweating', 'blurred and distorted vision', 'vomiting', 'excessive hunger', 'irritability', 'drying and tingling lips', 'anxiety', 'palpitations', 'slurred speech']",headache fatigue nausea sweating blurred and distorted vision vomiting excessive hunger irritability drying and tingling lips anxiety palpitations slurred speech,12,"['lie down on side', 'check in pulse', 'drink sugary drinks', 'consult doctor']",lie down on side check in pulse drink sugary drinks consult doctor,4,hypoglycemia headache fatigue nausea sweating blurred and distorted vision vomiting excessive hunger irritability drying and tingling lips anxiety palpitations slurred speech lie down on side check in pulse drink sugary drinks consult doctor,"Disease: Hypoglycemia
+
+Symptoms:
+  1. headache
+  2. fatigue
+  3. nausea
+  4. slurred speech
+  5. sweating
+  6. blurred and distorted vision
+  7. vomiting
+  8. excessive hunger
+  9. irritability
+  10. drying and tingling lips
+  11. palpitations
+  12. anxiety
+
+Precautions:
+  1. lie down on side
+  2. check in pulse
+  3. drink sugary drinks
+  4. consult doctor
+",33
+osteoarthristis,"['knee pain', 'neck pain', 'painful walking', 'joint pain', 'swelling joints', 'hip joint pain']",knee pain neck pain painful walking joint pain swelling joints hip joint pain,"['knee pain', 'neck pain', 'painful walking', 'joint pain', 'swelling joints', 'hip joint pain']",knee pain neck pain painful walking joint pain swelling joints hip joint pain,6,"['acetaminophen', 'consult nearest hospital', 'follow up', 'salt baths']",acetaminophen consult nearest hospital follow up salt baths,4,osteoarthristis knee pain neck pain painful walking joint pain swelling joints hip joint pain acetaminophen consult nearest hospital follow up salt baths,"Disease: Osteoarthristis
+
+Symptoms:
+  1. knee pain
+  2. neck pain
+  3. painful walking
+  4. joint pain
+  5. swelling joints
+  6. hip joint pain
+
+Precautions:
+  1. acetaminophen
+  2. consult nearest hospital
+  3. follow up
+  4. salt baths
+",34
+arthritis,"['stiff neck', 'movement stiffness', 'muscle weakness', 'painful walking', 'swelling joints']",stiff neck movement stiffness muscle weakness painful walking swelling joints,"['stiff neck', 'movement stiffness', 'muscle weakness', 'painful walking', 'swelling joints']",stiff neck movement stiffness muscle weakness painful walking swelling joints,5,"['exercise', 'use hot and cold therapy', 'try acupuncture', 'massage']",exercise use hot and cold therapy try acupuncture massage,4,arthritis stiff neck movement stiffness muscle weakness painful walking swelling joints exercise use hot and cold therapy try acupuncture massage,"Disease: Arthritis
+
+Symptoms:
+  1. stiff neck
+  2. movement stiffness
+  3. muscle weakness
+  4. painful walking
+  5. swelling joints
+
+Precautions:
+  1. exercise
+  2. use hot and cold therapy
+  3. try acupuncture
+  4. massage
+",35
+vertigo paroymsal positional vertigo,"['headache', 'spinning movements', 'nausea', 'vomiting', 'unsteadiness', 'loss of balance']",headache spinning movements nausea vomiting unsteadiness loss of balance,"['headache', 'spinning movements', 'nausea', 'vomiting', 'unsteadiness', 'loss of balance']",headache spinning movements nausea vomiting unsteadiness loss of balance,6,"['lie down', 'avoid sudden change in body', 'avoid abrupt head movment', 'relax']",lie down avoid sudden change in body avoid abrupt head movment relax,4,vertigo paroymsal positional vertigo headache spinning movements nausea vomiting unsteadiness loss of balance lie down avoid sudden change in body avoid abrupt head movment relax,"Disease: Vertigo Paroymsal Positional Vertigo
+
+Symptoms:
+  1. headache
+  2. spinning movements
+  3. nausea
+  4. vomiting
+  5. unsteadiness
+  6. loss of balance
+
+Precautions:
+  1. lie down
+  2. avoid sudden change in body
+  3. avoid abrupt head movment
+  4. relax
+",36
+acne,"['skin rash', 'blackheads', 'scurring', 'pus filled pimples']",skin rash blackheads scurring pus filled pimples,"['skin rash', 'blackheads', 'scurring', 'pus filled pimples']",skin rash blackheads scurring pus filled pimples,4,"['bath twice', 'avoid fatty spicy food', 'drink plenty of water', 'avoid too many products']",bath twice avoid fatty spicy food drink plenty of water avoid too many products,4,acne skin rash blackheads scurring pus filled pimples bath twice avoid fatty spicy food drink plenty of water avoid too many products,"Disease: Acne
+
+Symptoms:
+  1. skin rash
+  2. blackheads
+  3. scurring
+  4. pus filled pimples
+
+Precautions:
+  1. bath twice
+  2. avoid fatty spicy food
+  3. drink plenty of water
+  4. avoid too many products
+",37
+urinary tract infection,"['foul smell of urine', 'continuous feel of urine', 'bladder discomfort', 'burning micturition']",foul smell of urine continuous feel of urine bladder discomfort burning micturition,"['foul smell of urine', 'continuous feel of urine', 'bladder discomfort', 'burning micturition']",foul smell of urine continuous feel of urine bladder discomfort burning micturition,4,"['drink plenty of water', 'increase vitamin c intake', 'drink cranberry juice', 'take probiotics']",drink plenty of water increase vitamin c intake drink cranberry juice take probiotics,4,urinary tract infection foul smell of urine continuous feel of urine bladder discomfort burning micturition drink plenty of water increase vitamin c intake drink cranberry juice take probiotics,"Disease: Urinary Tract Infection
+
+Symptoms:
+  1. foul smell of urine
+  2. continuous feel of urine
+  3. bladder discomfort
+  4. burning micturition
+
+Precautions:
+  1. drink plenty of water
+  2. increase vitamin c intake
+  3. drink cranberry juice
+  4. take probiotics
+",38
+psoriasis,"['skin rash', 'inflammatory nails', 'silver like dusting', 'joint pain', 'small dents in nails', 'skin peeling']",skin rash inflammatory nails silver like dusting joint pain small dents in nails skin peeling,"['skin rash', 'inflammatory nails', 'silver like dusting', 'joint pain', 'small dents in nails', 'skin peeling']",skin rash inflammatory nails silver like dusting joint pain small dents in nails skin peeling,6,"['wash hands with warm soapy water', 'stop bleeding using pressure', 'consult doctor', 'salt baths']",wash hands with warm soapy water stop bleeding using pressure consult doctor salt baths,4,psoriasis skin rash inflammatory nails silver like dusting joint pain small dents in nails skin peeling wash hands with warm soapy water stop bleeding using pressure consult doctor salt baths,"Disease: Psoriasis
+
+Symptoms:
+  1. skin rash
+  2. inflammatory nails
+  3. silver like dusting
+  4. joint pain
+  5. small dents in nails
+  6. skin peeling
+
+Precautions:
+  1. wash hands with warm soapy water
+  2. stop bleeding using pressure
+  3. consult doctor
+  4. salt baths
+",39
+impetigo,"['skin rash', 'red sore around nose', 'blister', 'yellow crust ooze', 'high fever']",skin rash red sore around nose blister yellow crust ooze high fever,"['skin rash', 'red sore around nose', 'blister', 'yellow crust ooze', 'high fever']",skin rash red sore around nose blister yellow crust ooze high fever,5,"['soak affected area in warm water', 'use antibiotics', 'remove scabs with wet compressed cloth', 'consult doctor']",soak affected area in warm water use antibiotics remove scabs with wet compressed cloth consult doctor,4,impetigo skin rash red sore around nose blister yellow crust ooze high fever soak affected area in warm water use antibiotics remove scabs with wet compressed cloth consult doctor,"Disease: Impetigo
+
+Symptoms:
+  1. skin rash
+  2. red sore around nose
+  3. blister
+  4. yellow crust ooze
+  5. high fever
+
+Precautions:
+  1. soak affected area in warm water
+  2. use antibiotics
+  3. remove scabs with wet compressed cloth
+  4. consult doctor
+",40
