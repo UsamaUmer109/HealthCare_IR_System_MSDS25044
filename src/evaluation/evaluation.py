@@ -1,98 +1,89 @@
-# src/evaluation/evaluation.py
-
-import json
 import math
 
-class Evaluator:
-    def __init__(self, ir_system, eval_file="data/evaluation/evaluation_queries.json"):
-        self.ir = ir_system
-        self.eval_file = eval_file
+class EvaluationMetrics:
 
-        with open(eval_file, "r") as f:
-            self.queries = json.load(f)
+    # ----------------------------------------------------------
+    # PRECISION@K
+    # ----------------------------------------------------------
+    def precision_at_k(self, retrieved_ids, relevant_ids, k=5):
+        if k == 0:
+            return 0.0
+        retrieved_k = retrieved_ids[:k]
+        rel = len(set(retrieved_k) & set(relevant_ids))
+        return rel / k
 
-    # -----------------------------------------
-    # Basic Metrics
-    # -----------------------------------------
-    def precision_at_k(self, retrieved, relevant, k):
-        retrieved_set = set(r["disease"].lower() for r in retrieved[:k])
-        relevant_set = set(r.lower() for r in relevant)
+    # ----------------------------------------------------------
+    # RECALL@K
+    # ----------------------------------------------------------
+    def recall_at_k(self, retrieved_ids, relevant_ids, k=5):
+        if len(relevant_ids) == 0:
+            return 0.0
+        retrieved_k = retrieved_ids[:k]
+        rel = len(set(retrieved_k) & set(relevant_ids))
+        return rel / len(relevant_ids)
 
-        tp = len(retrieved_set & relevant_set)
-        return tp / k
+    # ----------------------------------------------------------
+    # F1@K
+    # ----------------------------------------------------------
+    def f1_at_k(self, retrieved_ids, relevant_ids, k=5):
+        p = self.precision_at_k(retrieved_ids, relevant_ids, k)
+        r = self.recall_at_k(retrieved_ids, relevant_ids, k)
+        if p + r == 0:
+            return 0.0
+        return 2 * (p * r) / (p + r)
 
-    def recall_at_k(self, retrieved, relevant, k):
-        retrieved_set = set(r["disease"].lower() for r in retrieved[:k])
-        relevant_set = set(r.lower() for r in relevant)
+    # ----------------------------------------------------------
+    # DCG@K
+    # ----------------------------------------------------------
+    def dcg_at_k(self, retrieved_ids, relevant_ids, k=5):
+        dcg = 0.0
+        for i, doc_id in enumerate(retrieved_ids[:k]):
+            if doc_id in relevant_ids:
+                dcg += 1 / math.log2(i + 2)
+        return dcg
 
-        tp = len(retrieved_set & relevant_set)
-        return tp / len(relevant_set)
+    # ----------------------------------------------------------
+    # IDCG@K (Ideal DCG)
+    # ----------------------------------------------------------
+    def idcg_at_k(self, relevant_ids, k=5):
+        ideal_rel = min(len(relevant_ids), k)
+        idcg = 0.0
+        for i in range(ideal_rel):
+            idcg += 1 / math.log2(i + 2)
+        return idcg
 
-    def f1_score(self, precision, recall):
-        if precision + recall == 0:
-            return 0
-        return 2 * (precision * recall) / (precision + recall)
-
-    # -----------------------------------------
-    # MAP
-    # -----------------------------------------
-    def average_precision(self, retrieved, relevant):
-        ap = 0
-        hits = 0
-
-        for i, item in enumerate(retrieved, 1):
-            if item["disease"].lower() in relevant:
-                hits += 1
-                ap += hits / i
-
-        if not relevant:
-            return 0
-
-        return ap / len(relevant)
-
-    # -----------------------------------------
-    # NDCG
-    # -----------------------------------------
-    def ndcg_at_k(self, retrieved, relevant, k):
-        dcg = 0
-        for i, item in enumerate(retrieved[:k], 1):
-            if item["disease"].lower() in relevant:
-                dcg += 1 / math.log2(i + 1)
-
-        ideal_hits = min(k, len(relevant))
-        idcg = sum(1 / math.log2(i + 1) for i in range(1, ideal_hits + 1))
-
+    # ----------------------------------------------------------
+    # nDCG@K
+    # ----------------------------------------------------------
+    def ndcg_at_k(self, retrieved_ids, relevant_ids, k=5):
+        idcg = self.idcg_at_k(relevant_ids, k)
         if idcg == 0:
-            return 0
-
+            return 0.0
+        dcg = self.dcg_at_k(retrieved_ids, relevant_ids, k)
         return dcg / idcg
 
-    # -----------------------------------------
-    # Run Evaluation
-    # -----------------------------------------
-    def evaluate_model(self, model_name, search_fn, k=5):
-        results = []
+    # ----------------------------------------------------------
+    # AVERAGE PRECISION
+    # ----------------------------------------------------------
+    def average_precision(self, retrieved_ids, relevant_ids):
+        hits = 0
+        sum_precisions = 0.0
 
-        for query, relevant in self.queries.items():
-            retrieved = search_fn(query)
+        for i, doc_id in enumerate(retrieved_ids):
+            if doc_id in relevant_ids:
+                hits += 1
+                sum_precisions += hits / (i + 1)
 
-            p = self.precision_at_k(retrieved, relevant, k)
-            r = self.recall_at_k(retrieved, relevant, k)
-            f1 = self.f1_score(p, r)
-            ap = self.average_precision(retrieved, relevant)
-            ndcg = self.ndcg_at_k(retrieved, relevant, k)
+        if hits == 0:
+            return 0.0
 
-            results.append((p, r, f1, ap, ndcg))
+        return sum_precisions / len(relevant_ids)
 
-        avg = lambda x: sum(x) / len(x)
-        metrics = {
-            "precision": avg([r[0] for r in results]),
-            "recall": avg([r[1] for r in results]),
-            "f1": avg([r[2] for r in results]),
-            "map": avg([r[3] for r in results]),
-            "ndcg": avg([r[4] for r in results]),
-        }
+    # ----------------------------------------------------------
+    # MEAN AVERAGE PRECISION
+    # ----------------------------------------------------------
+    def mean_average_precision(self, ap_scores):
+        if len(ap_scores) == 0:
+            return 0.0
+        return sum(ap_scores) / len(ap_scores)
 
-        print(f"\n📊 RESULTS — {model_name}:")
-        print(metrics)
-        return metrics
