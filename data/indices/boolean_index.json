@@ -1,0 +1,585 @@
+{
+  "nodal skin eruptions": [
+    0
+  ],
+  "itching": [
+    0,
+    3,
+    4,
+    14,
+    16,
+    20
+  ],
+  "dischromic patches": [
+    0
+  ],
+  "skin rash": [
+    0,
+    4,
+    16,
+    17,
+    37,
+    39,
+    40
+  ],
+  "watering from eyes": [
+    1
+  ],
+  "continuous sneezing": [
+    1,
+    26
+  ],
+  "shivering": [
+    1
+  ],
+  "chills": [
+    1,
+    15,
+    17,
+    18,
+    25,
+    26,
+    27
+  ],
+  "stomach pain": [
+    2,
+    4
+  ],
+  "vomiting": [
+    2,
+    3,
+    5,
+    8,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    22,
+    23,
+    24,
+    25,
+    29,
+    33,
+    36
+  ],
+  "cough": [
+    2,
+    9,
+    25,
+    26,
+    27
+  ],
+  "chest pain": [
+    2,
+    10,
+    25,
+    26,
+    27,
+    29
+  ],
+  "ulcers on tongue": [
+    2
+  ],
+  "acidity": [
+    2,
+    11
+  ],
+  "yellowing of eyes": [
+    3,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25
+  ],
+  "loss of appetite": [
+    3,
+    5,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25
+  ],
+  "abdominal pain": [
+    3,
+    5,
+    14,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24
+  ],
+  "yellowish skin": [
+    3,
+    14,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "nausea": [
+    3,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    33,
+    36
+  ],
+  "burning micturition": [
+    4,
+    38
+  ],
+  "spotting urination": [
+    4
+  ],
+  "internal itching": [
+    5
+  ],
+  "indigestion": [
+    5,
+    11
+  ],
+  "passage of gases": [
+    5
+  ],
+  "muscle wasting": [
+    6
+  ],
+  "patches in throat": [
+    6
+  ],
+  "extra marital contacts": [
+    6
+  ],
+  "high fever": [
+    6,
+    9,
+    14,
+    15,
+    16,
+    17,
+    18,
+    23,
+    25,
+    26,
+    27,
+    40
+  ],
+  "weight loss": [
+    7,
+    14,
+    25,
+    32
+  ],
+  "fatigue": [
+    7,
+    9,
+    14,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    30,
+    31,
+    32,
+    33
+  ],
+  "blurred and distorted vision": [
+    7,
+    11,
+    33
+  ],
+  "excessive hunger": [
+    7,
+    11,
+    32,
+    33
+  ],
+  "restlessness": [
+    7,
+    32
+  ],
+  "increased appetite": [
+    7
+  ],
+  "obesity": [
+    7,
+    30
+  ],
+  "lethargy": [
+    7,
+    16,
+    20,
+    31
+  ],
+  "polyuria": [
+    7
+  ],
+  "irregular sugar level": [
+    7
+  ],
+  "sunken eyes": [
+    8
+  ],
+  "dehydration": [
+    8
+  ],
+  "diarrhoea": [
+    8,
+    15,
+    18,
+    19,
+    32
+  ],
+  "mucoid sputum": [
+    9
+  ],
+  "family history": [
+    9,
+    21
+  ],
+  "breathlessness": [
+    9,
+    25,
+    27,
+    29
+  ],
+  "loss of balance": [
+    10,
+    12,
+    36
+  ],
+  "dizziness": [
+    10,
+    12,
+    31
+  ],
+  "headache": [
+    10,
+    11,
+    13,
+    15,
+    16,
+    17,
+    18,
+    26,
+    33,
+    36
+  ],
+  "lack of concentration": [
+    10
+  ],
+  "stiff neck": [
+    11,
+    35
+  ],
+  "depression": [
+    11,
+    31
+  ],
+  "visual disturbances": [
+    11
+  ],
+  "irritability": [
+    11,
+    31,
+    32,
+    33
+  ],
+  "neck pain": [
+    12,
+    34
+  ],
+  "back pain": [
+    12,
+    17
+  ],
+  "weakness in limbs": [
+    12
+  ],
+  "weakness of one body side": [
+    13
+  ],
+  "altered sensorium": [
+    13
+  ],
+  "dark urine": [
+    14,
+    19,
+    20,
+    22,
+    23
+  ],
+  "muscle pain": [
+    15,
+    17,
+    19,
+    26
+  ],
+  "sweating": [
+    15,
+    25,
+    27,
+    29,
+    32,
+    33
+  ],
+  "mild fever": [
+    16,
+    19,
+    25
+  ],
+  "red spots over body": [
+    16,
+    17
+  ],
+  "malaise": [
+    16,
+    17,
+    20,
+    25,
+    26,
+    27
+  ],
+  "swelled lymph nodes": [
+    16,
+    25,
+    26
+  ],
+  "pain behind the eyes": [
+    17
+  ],
+  "joint pain": [
+    17,
+    19,
+    22,
+    23,
+    34,
+    39
+  ],
+  "toxic look (typhos)": [
+    18
+  ],
+  "constipation": [
+    18,
+    28
+  ],
+  "belly pain": [
+    18
+  ],
+  "receiving unsterile injections": [
+    20
+  ],
+  "yellow urine": [
+    20
+  ],
+  "receiving blood transfusion": [
+    20
+  ],
+  "coma": [
+    23
+  ],
+  "stomach bleeding": [
+    23
+  ],
+  "acute liver failure": [
+    23
+  ],
+  "swelling of stomach": [
+    24
+  ],
+  "history of alcohol consumption": [
+    24
+  ],
+  "distention of abdomen": [
+    24
+  ],
+  "fluid overload": [
+    24
+  ],
+  "blood in sputum": [
+    25
+  ],
+  "phlegm": [
+    25,
+    26,
+    27
+  ],
+  "congestion": [
+    26
+  ],
+  "runny nose": [
+    26
+  ],
+  "throat irritation": [
+    26
+  ],
+  "sinus pressure": [
+    26
+  ],
+  "redness of eyes": [
+    26
+  ],
+  "loss of smell": [
+    26
+  ],
+  "rusty sputum": [
+    27
+  ],
+  "fast heart rate": [
+    27,
+    32
+  ],
+  "pain during bowel movements": [
+    28
+  ],
+  "bloody stool": [
+    28
+  ],
+  "pain in anal region": [
+    28
+  ],
+  "irritation in anus": [
+    28
+  ],
+  "swollen blood vessels": [
+    30
+  ],
+  "swollen legs": [
+    30
+  ],
+  "bruising": [
+    30
+  ],
+  "cramps": [
+    30
+  ],
+  "prominent veins on calf": [
+    30
+  ],
+  "cold hands and feets": [
+    31
+  ],
+  "swollen extremeties": [
+    31
+  ],
+  "abnormal menstruation": [
+    31,
+    32
+  ],
+  "enlarged thyroid": [
+    31
+  ],
+  "brittle nails": [
+    31
+  ],
+  "weight gain": [
+    31
+  ],
+  "puffy face and eyes": [
+    31
+  ],
+  "mood swings": [
+    31,
+    32
+  ],
+  "muscle weakness": [
+    32,
+    35
+  ],
+  "anxiety": [
+    33
+  ],
+  "palpitations": [
+    33
+  ],
+  "slurred speech": [
+    33
+  ],
+  "drying and tingling lips": [
+    33
+  ],
+  "swelling joints": [
+    34,
+    35
+  ],
+  "painful walking": [
+    34,
+    35
+  ],
+  "hip joint pain": [
+    34
+  ],
+  "knee pain": [
+    34
+  ],
+  "movement stiffness": [
+    35
+  ],
+  "unsteadiness": [
+    36
+  ],
+  "spinning movements": [
+    36
+  ],
+  "blackheads": [
+    37
+  ],
+  "pus filled pimples": [
+    37
+  ],
+  "scurring": [
+    37
+  ],
+  "foul smell of urine": [
+    38
+  ],
+  "continuous feel of urine": [
+    38
+  ],
+  "bladder discomfort": [
+    38
+  ],
+  "silver like dusting": [
+    39
+  ],
+  "small dents in nails": [
+    39
+  ],
+  "inflammatory nails": [
+    39
+  ],
+  "skin peeling": [
+    39
+  ],
+  "blister": [
+    40
+  ],
+  "yellow crust ooze": [
+    40
+  ],
+  "red sore around nose": [
+    40
+  ]
+}
