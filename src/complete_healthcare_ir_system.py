@@ -11,6 +11,7 @@ import numpy as np
 from retrieval.boolean_retriever import BooleanRetriever
 from retrieval.tfidf_retriever import TFIDFRetriever
 from retrieval.bm25_retriever import BM25Retriever
+from evidence.evidence_retriever import EvidenceRetriever
 
 
 class CompleteHealthcareIRSystem:
@@ -19,6 +20,8 @@ class CompleteHealthcareIRSystem:
         self.tfidf_ret = None
         self.bm25_ret = None
         self.initialized = False
+        self.evidence_ret = EvidenceRetriever()
+
 
     # ======================================================================
     # INITIALIZATION
@@ -92,7 +95,15 @@ class CompleteHealthcareIRSystem:
             self.bm25_ret.save_index(bm25_path)
 
         print("   ✅ BM25: Ready")
+        print("\n4️⃣  Loading Evidence Retriever...")
+        self.evidence_ret = EvidenceRetriever()
 
+        if self.evidence_ret.df is None:
+            print("❌ Failed to load Evidence retriever")
+            return False
+
+        print("   ✅ Evidence: Ready")
+    
         # ---------------------- DONE -----------------------
         self.initialized = True
 
@@ -256,6 +267,16 @@ class CompleteHealthcareIRSystem:
                 out += f"   💡 Precaution: {r['precautions'][0]}\n"
 
             out += "-" * 60 + "\n"
+            # ================================
+            # 🔍 Add Evidence Retrieval
+            # ================================
+            if hasattr(self, "evidence_ret") and self.evidence_ret.df is not None:
+                evidence = self.evidence_ret.search_evidence(r["disease"], top_k=2)
+
+                if evidence:
+                    out += f"   📚 Evidence Articles:\n"
+                    for ev in evidence:
+                        out += f"      • {ev['title']} — {ev['summary'][:120]}...\n"
 
         return out
 
