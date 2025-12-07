@@ -1,0 +1,43 @@
+HEALTHCARE DATASET ANALYSIS REPORT
+============================================================
+
+DATASET SUMMARY:
+============================================================
+
+1. SYMPTOM DATASET:
+   - Total diseases: 4920
+   - Columns: ['Disease', 'Symptom_1', 'Symptom_2', 'Symptom_3', 'Symptom_4', 'Symptom_5', 'Symptom_6', 'Symptom_7', 'Symptom_8', 'Symptom_9', 'Symptom_10', 'Symptom_11', 'Symptom_12', 'Symptom_13', 'Symptom_14', 'Symptom_15', 'Symptom_16', 'Symptom_17', 'symptom_count']
+   - Shape: (4920, 19)
+   - Average symptoms per disease: 7.45
+
+2. PRECAUTION DATASET:
+   - Total diseases: 41
+   - Columns: ['Disease', 'Precaution_1', 'Precaution_2', 'Precaution_3', 'Precaution_4', 'precaution_count']
+   - Shape: (41, 6)
+   - Average precautions per disease: 3.95
+
+3. COMPARISON:
+   - Diseases in both datasets: 41
+   - Diseases only in symptoms: 0
+   - Diseases only in precautions: 0
+
+SAMPLE DATA:
+============================================================
+
+First 5 diseases from symptom dataset:
+
+1. Fungal infection
+   Symptoms: itching, skin_rash, nodal_skin_eruptions... (+1 more)
+   Total symptoms: 4
+2. Fungal infection
+   Symptoms: skin_rash, nodal_skin_eruptions, dischromic _patches
+   Total symptoms: 3
+3. Fungal infection
+   Symptoms: itching, nodal_skin_eruptions, dischromic _patches
+   Total symptoms: 3
+4. Fungal infection
+   Symptoms: itching, skin_rash, dischromic _patches
+   Total symptoms: 3
+5. Fungal infection
+   Symptoms: itching, skin_rash, nodal_skin_eruptions
+   Total symptoms: 3
