@@ -1,0 +1,767 @@
+{
+  "index": {
+    "skin rash": {
+      "0": 1,
+      "4": 1,
+      "16": 1,
+      "17": 1,
+      "37": 1,
+      "39": 1,
+      "40": 1
+    },
+    "itching": {
+      "0": 1,
+      "3": 1,
+      "4": 1,
+      "14": 1,
+      "16": 1,
+      "20": 1
+    },
+    "dischromic patches": {
+      "0": 1
+    },
+    "nodal skin eruptions": {
+      "0": 1
+    },
+    "watering from eyes": {
+      "1": 1
+    },
+    "continuous sneezing": {
+      "1": 1,
+      "26": 1
+    },
+    "shivering": {
+      "1": 1
+    },
+    "chills": {
+      "1": 1,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1
+    },
+    "cough": {
+      "2": 1,
+      "9": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1
+    },
+    "ulcers on tongue": {
+      "2": 1
+    },
+    "acidity": {
+      "2": 1,
+      "11": 1
+    },
+    "stomach pain": {
+      "2": 1,
+      "4": 1
+    },
+    "chest pain": {
+      "2": 1,
+      "10": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "29": 1
+    },
+    "vomiting": {
+      "2": 1,
+      "3": 1,
+      "5": 1,
+      "8": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "29": 1,
+      "33": 1,
+      "36": 1
+    },
+    "yellowing of eyes": {
+      "3": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "25": 1
+    },
+    "yellowish skin": {
+      "3": 1,
+      "14": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1
+    },
+    "loss of appetite": {
+      "3": 1,
+      "5": 1,
+      "16": 1,
+      "17": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "25": 1
+    },
+    "nausea": {
+      "3": 1,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "33": 1,
+      "36": 1
+    },
+    "abdominal pain": {
+      "3": 1,
+      "5": 1,
+      "14": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1
+    },
+    "spotting urination": {
+      "4": 1
+    },
+    "burning micturition": {
+      "4": 1,
+      "38": 1
+    },
+    "internal itching": {
+      "5": 1
+    },
+    "indigestion": {
+      "5": 1,
+      "11": 1
+    },
+    "passage of gases": {
+      "5": 1
+    },
+    "muscle wasting": {
+      "6": 1
+    },
+    "high fever": {
+      "6": 1,
+      "9": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "23": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "40": 1
+    },
+    "patches in throat": {
+      "6": 1
+    },
+    "extra marital contacts": {
+      "6": 1
+    },
+    "irregular sugar level": {
+      "7": 1
+    },
+    "polyuria": {
+      "7": 1
+    },
+    "fatigue": {
+      "7": 1,
+      "9": 1,
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "30": 1,
+      "31": 1,
+      "32": 1,
+      "33": 1
+    },
+    "restlessness": {
+      "7": 1,
+      "32": 1
+    },
+    "lethargy": {
+      "7": 1,
+      "16": 1,
+      "20": 1,
+      "31": 1
+    },
+    "blurred and distorted vision": {
+      "7": 1,
+      "11": 1,
+      "33": 1
+    },
+    "weight loss": {
+      "7": 1,
+      "14": 1,
+      "25": 1,
+      "32": 1
+    },
+    "obesity": {
+      "7": 1,
+      "30": 1
+    },
+    "excessive hunger": {
+      "7": 1,
+      "11": 1,
+      "32": 1,
+      "33": 1
+    },
+    "increased appetite": {
+      "7": 1
+    },
+    "sunken eyes": {
+      "8": 1
+    },
+    "dehydration": {
+      "8": 1
+    },
+    "diarrhoea": {
+      "8": 1,
+      "15": 1,
+      "18": 1,
+      "19": 1,
+      "32": 1
+    },
+    "family history": {
+      "9": 1,
+      "21": 1
+    },
+    "breathlessness": {
+      "9": 1,
+      "25": 1,
+      "27": 1,
+      "29": 1
+    },
+    "mucoid sputum": {
+      "9": 1
+    },
+    "headache": {
+      "10": 1,
+      "11": 1,
+      "13": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "26": 1,
+      "33": 1,
+      "36": 1
+    },
+    "dizziness": {
+      "10": 1,
+      "12": 1,
+      "31": 1
+    },
+    "loss of balance": {
+      "10": 1,
+      "12": 1,
+      "36": 1
+    },
+    "lack of concentration": {
+      "10": 1
+    },
+    "visual disturbances": {
+      "11": 1
+    },
+    "stiff neck": {
+      "11": 1,
+      "35": 1
+    },
+    "depression": {
+      "11": 1,
+      "31": 1
+    },
+    "irritability": {
+      "11": 1,
+      "31": 1,
+      "32": 1,
+      "33": 1
+    },
+    "neck pain": {
+      "12": 1,
+      "34": 1
+    },
+    "weakness in limbs": {
+      "12": 1
+    },
+    "back pain": {
+      "12": 1,
+      "17": 1
+    },
+    "weakness of one body side": {
+      "13": 1
+    },
+    "altered sensorium": {
+      "13": 1
+    },
+    "dark urine": {
+      "14": 1,
+      "19": 1,
+      "20": 1,
+      "22": 1,
+      "23": 1
+    },
+    "sweating": {
+      "15": 1,
+      "25": 1,
+      "27": 1,
+      "29": 1,
+      "32": 1,
+      "33": 1
+    },
+    "muscle pain": {
+      "15": 1,
+      "17": 1,
+      "19": 1,
+      "26": 1
+    },
+    "mild fever": {
+      "16": 1,
+      "19": 1,
+      "25": 1
+    },
+    "red spots over body": {
+      "16": 1,
+      "17": 1
+    },
+    "malaise": {
+      "16": 1,
+      "17": 1,
+      "20": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1
+    },
+    "swelled lymph nodes": {
+      "16": 1,
+      "25": 1,
+      "26": 1
+    },
+    "joint pain": {
+      "17": 1,
+      "19": 1,
+      "22": 1,
+      "23": 1,
+      "34": 1,
+      "39": 1
+    },
+    "pain behind the eyes": {
+      "17": 1
+    },
+    "toxic look (typhos)": {
+      "18": 1
+    },
+    "constipation": {
+      "18": 1,
+      "28": 1
+    },
+    "belly pain": {
+      "18": 1
+    },
+    "receiving blood transfusion": {
+      "20": 1
+    },
+    "receiving unsterile injections": {
+      "20": 1
+    },
+    "yellow urine": {
+      "20": 1
+    },
+    "acute liver failure": {
+      "23": 1
+    },
+    "coma": {
+      "23": 1
+    },
+    "stomach bleeding": {
+      "23": 1
+    },
+    "history of alcohol consumption": {
+      "24": 1
+    },
+    "swelling of stomach": {
+      "24": 1
+    },
+    "distention of abdomen": {
+      "24": 1
+    },
+    "fluid overload": {
+      "24": 1
+    },
+    "phlegm": {
+      "25": 1,
+      "26": 1,
+      "27": 1
+    },
+    "blood in sputum": {
+      "25": 1
+    },
+    "loss of smell": {
+      "26": 1
+    },
+    "sinus pressure": {
+      "26": 1
+    },
+    "redness of eyes": {
+      "26": 1
+    },
+    "congestion": {
+      "26": 1
+    },
+    "runny nose": {
+      "26": 1
+    },
+    "throat irritation": {
+      "26": 1
+    },
+    "fast heart rate": {
+      "27": 1,
+      "32": 1
+    },
+    "rusty sputum": {
+      "27": 1
+    },
+    "irritation in anus": {
+      "28": 1
+    },
+    "pain during bowel movements": {
+      "28": 1
+    },
+    "pain in anal region": {
+      "28": 1
+    },
+    "bloody stool": {
+      "28": 1
+    },
+    "prominent veins on calf": {
+      "30": 1
+    },
+    "bruising": {
+      "30": 1
+    },
+    "swollen blood vessels": {
+      "30": 1
+    },
+    "swollen legs": {
+      "30": 1
+    },
+    "cramps": {
+      "30": 1
+    },
+    "abnormal menstruation": {
+      "31": 1,
+      "32": 1
+    },
+    "swollen extremeties": {
+      "31": 1
+    },
+    "weight gain": {
+      "31": 1
+    },
+    "puffy face and eyes": {
+      "31": 1
+    },
+    "mood swings": {
+      "31": 1,
+      "32": 1
+    },
+    "cold hands and feets": {
+      "31": 1
+    },
+    "enlarged thyroid": {
+      "31": 1
+    },
+    "brittle nails": {
+      "31": 1
+    },
+    "muscle weakness": {
+      "32": 1,
+      "35": 1
+    },
+    "drying and tingling lips": {
+      "33": 1
+    },
+    "anxiety": {
+      "33": 1
+    },
+    "palpitations": {
+      "33": 1
+    },
+    "slurred speech": {
+      "33": 1
+    },
+    "knee pain": {
+      "34": 1
+    },
+    "painful walking": {
+      "34": 1,
+      "35": 1
+    },
+    "swelling joints": {
+      "34": 1,
+      "35": 1
+    },
+    "hip joint pain": {
+      "34": 1
+    },
+    "movement stiffness": {
+      "35": 1
+    },
+    "spinning movements": {
+      "36": 1
+    },
+    "unsteadiness": {
+      "36": 1
+    },
+    "blackheads": {
+      "37": 1
+    },
+    "scurring": {
+      "37": 1
+    },
+    "pus filled pimples": {
+      "37": 1
+    },
+    "foul smell of urine": {
+      "38": 1
+    },
+    "continuous feel of urine": {
+      "38": 1
+    },
+    "bladder discomfort": {
+      "38": 1
+    },
+    "inflammatory nails": {
+      "39": 1
+    },
+    "silver like dusting": {
+      "39": 1
+    },
+    "small dents in nails": {
+      "39": 1
+    },
+    "skin peeling": {
+      "39": 1
+    },
+    "red sore around nose": {
+      "40": 1
+    },
+    "blister": {
+      "40": 1
+    },
+    "yellow crust ooze": {
+      "40": 1
+    }
+  },
+  "doc_lengths": {
+    "0": 4,
+    "1": 4,
+    "2": 6,
+    "3": 7,
+    "4": 5,
+    "5": 6,
+    "6": 4,
+    "7": 10,
+    "8": 4,
+    "9": 6,
+    "10": 5,
+    "11": 9,
+    "12": 5,
+    "13": 4,
+    "14": 8,
+    "15": 8,
+    "16": 11,
+    "17": 14,
+    "18": 11,
+    "19": 11,
+    "20": 12,
+    "21": 6,
+    "22": 9,
+    "23": 13,
+    "24": 7,
+    "25": 16,
+    "26": 17,
+    "27": 11,
+    "28": 5,
+    "29": 4,
+    "30": 7,
+    "31": 13,
+    "32": 11,
+    "33": 12,
+    "34": 6,
+    "35": 5,
+    "36": 6,
+    "37": 4,
+    "38": 4,
+    "39": 6,
+    "40": 5
+  },
+  "avg_doc_length": 7.829268292682927,
+  "doc_freq": {
+    "skin rash": 7,
+    "itching": 6,
+    "dischromic patches": 1,
+    "nodal skin eruptions": 1,
+    "watering from eyes": 1,
+    "continuous sneezing": 2,
+    "shivering": 1,
+    "chills": 7,
+    "cough": 5,
+    "ulcers on tongue": 1,
+    "acidity": 2,
+    "stomach pain": 2,
+    "chest pain": 6,
+    "vomiting": 17,
+    "yellowing of eyes": 7,
+    "yellowish skin": 8,
+    "loss of appetite": 10,
+    "nausea": 10,
+    "abdominal pain": 9,
+    "spotting urination": 1,
+    "burning micturition": 2,
+    "internal itching": 1,
+    "indigestion": 2,
+    "passage of gases": 1,
+    "muscle wasting": 1,
+    "high fever": 12,
+    "patches in throat": 1,
+    "extra marital contacts": 1,
+    "irregular sugar level": 1,
+    "polyuria": 1,
+    "fatigue": 17,
+    "restlessness": 2,
+    "lethargy": 4,
+    "blurred and distorted vision": 3,
+    "weight loss": 4,
+    "obesity": 2,
+    "excessive hunger": 4,
+    "increased appetite": 1,
+    "sunken eyes": 1,
+    "dehydration": 1,
+    "diarrhoea": 5,
+    "family history": 2,
+    "breathlessness": 4,
+    "mucoid sputum": 1,
+    "headache": 10,
+    "dizziness": 3,
+    "loss of balance": 3,
+    "lack of concentration": 1,
+    "visual disturbances": 1,
+    "stiff neck": 2,
+    "depression": 2,
+    "irritability": 4,
+    "neck pain": 2,
+    "weakness in limbs": 1,
+    "back pain": 2,
+    "weakness of one body side": 1,
+    "altered sensorium": 1,
+    "dark urine": 5,
+    "sweating": 6,
+    "muscle pain": 4,
+    "mild fever": 3,
+    "red spots over body": 2,
+    "malaise": 6,
+    "swelled lymph nodes": 3,
+    "joint pain": 6,
+    "pain behind the eyes": 1,
+    "toxic look (typhos)": 1,
+    "constipation": 2,
+    "belly pain": 1,
+    "receiving blood transfusion": 1,
+    "receiving unsterile injections": 1,
+    "yellow urine": 1,
+    "acute liver failure": 1,
+    "coma": 1,
+    "stomach bleeding": 1,
+    "history of alcohol consumption": 1,
+    "swelling of stomach": 1,
+    "distention of abdomen": 1,
+    "fluid overload": 1,
+    "phlegm": 3,
+    "blood in sputum": 1,
+    "loss of smell": 1,
+    "sinus pressure": 1,
+    "redness of eyes": 1,
+    "congestion": 1,
+    "runny nose": 1,
+    "throat irritation": 1,
+    "fast heart rate": 2,
+    "rusty sputum": 1,
+    "irritation in anus": 1,
+    "pain during bowel movements": 1,
+    "pain in anal region": 1,
+    "bloody stool": 1,
+    "prominent veins on calf": 1,
+    "bruising": 1,
+    "swollen blood vessels": 1,
+    "swollen legs": 1,
+    "cramps": 1,
+    "abnormal menstruation": 2,
+    "swollen extremeties": 1,
+    "weight gain": 1,
+    "puffy face and eyes": 1,
+    "mood swings": 2,
+    "cold hands and feets": 1,
+    "enlarged thyroid": 1,
+    "brittle nails": 1,
+    "muscle weakness": 2,
+    "drying and tingling lips": 1,
+    "anxiety": 1,
+    "palpitations": 1,
+    "slurred speech": 1,
+    "knee pain": 1,
+    "painful walking": 2,
+    "swelling joints": 2,
+    "hip joint pain": 1,
+    "movement stiffness": 1,
+    "spinning movements": 1,
+    "unsteadiness": 1,
+    "blackheads": 1,
+    "scurring": 1,
+    "pus filled pimples": 1,
+    "foul smell of urine": 1,
+    "continuous feel of urine": 1,
+    "bladder discomfort": 1,
+    "inflammatory nails": 1,
+    "silver like dusting": 1,
+    "small dents in nails": 1,
+    "skin peeling": 1,
+    "red sore around nose": 1,
+    "blister": 1,
+    "yellow crust ooze": 1
+  },
+  "N": 41,
+  "k1": 1.5,
+  "b": 0.75
+}
